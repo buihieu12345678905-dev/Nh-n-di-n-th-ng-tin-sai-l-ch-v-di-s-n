@@ -1,0 +1,6 @@
+{
+  "name": "Di Sản Thực Chứng - Nhận diện thông tin sai lệch về di sản (J01)",
+  "description": "Nền tảng thẩm định và đối chiếu sử liệu chuyên sâu nhằm phát hiện, phân tích và đính chính các thông tin sai lệch, xuyên tạc về di sản văn hóa và di tích lịch sử.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

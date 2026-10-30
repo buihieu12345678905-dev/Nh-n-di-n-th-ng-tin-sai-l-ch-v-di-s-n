@@ -1,0 +1,58 @@
+import { QuizQuestion } from '../types/heritage';
+
+export const heritageQuizQuestions: QuizQuestion[] = [
+  {
+    id: 1,
+    claim: 'Rồng thời Lý trên điêu khắc đá chùa Phật Tích có vẩy sắc nhọn, sừng hươu gồ ghề và chân 5 móng xòe dữ tợn giống rồng triều Minh.',
+    heritageName: 'Hình tượng Rồng thời Lý (Mỹ thuật Đại Việt thế kỷ XI-XII)',
+    category: 'Trang phục & Mỹ thuật',
+    isFact: false,
+    explanation: 'Sai! Rồng thời Lý mang đặc trưng độc nhất vô nhị trong mỹ thuật phương Đông: thân tròn trơn mềm mại uốn khúc hình sin lượn sóng nhấp nhô thon dần về đuôi (rồng hình dây giun), đầu ngẩng cao, mào lửa uyển chuyển, không có sừng gồ ghề, chân thường chỉ có 3 móng mảnh mai. Đây là đặc trưng thuần Việt phản ánh tinh thần từ bi của Phật giáo thời Lý.',
+    source: 'Bảo tàng Lịch sử Quốc gia & Viện Mỹ thuật Việt Nam',
+  },
+  {
+    id: 2,
+    claim: 'Năm 1744, Chúa Nguyễn Phúc Khoát tại Đàng Trong đã ban sắc lệnh cải cách trang phục, khai sinh ra tiền thân của chiếc áo dài ngũ thân truyền thống.',
+    heritageName: 'Áo dài Ngũ thân Việt Nam',
+    category: 'Trang phục & Mỹ thuật',
+    isFact: true,
+    explanation: 'Chính xác! Sách Đại Nam Thực Lục Tiền Biên ghi rõ chúa Vũ Vương Nguyễn Phúc Khoát đã định chế lại y phục cho nhân dân Đàng Trong, kết hợp áo giao lĩnh cổ truyền với thân áo may đứng 5 mảnh cài khuy bên hữu, tạo nên sự khởi đầu cho chiếc áo dài ngũ thân.',
+    source: 'Đại Nam Thực Lục Tiền Biên & Phủ Biên Tạp Lục (Lê Quý Đôn)',
+  },
+  {
+    id: 3,
+    claim: 'Trống đồng Cảnh Thịnh lưu giữ tại Bảo tàng Lịch sử Quốc gia được đúc dưới thời vua Cảnh Thịnh triều Tây Sơn mô phỏng hình dáng trống đồng cổ Đông Sơn.',
+    heritageName: 'Trống đồng Cảnh Thịnh (Bảo vật Quốc gia)',
+    category: 'Khảo cổ & Cổ vật',
+    isFact: true,
+    explanation: 'Chính xác! Trống đồng Cảnh Thịnh đúc năm 1800 dưới thời vua Cảnh Thịnh (Nguyễn Quang Toản) triều Tây Sơn. Trống mô phỏng lại kiểu dáng trống da/trống đồng cổ nhưng trang trí hoa văn rồng thời Tây Sơn và bài minh văn chữ Hán ca ngợi công đức của người đúc. Đây là Bảo vật Quốc gia vô cùng quý hiếm.',
+    source: 'Hồ sơ Bảo vật Quốc gia số 11/QĐ-TTg, Bảo tàng Lịch sử Quốc gia',
+  },
+  {
+    id: 4,
+    claim: 'Sư tử đá kiểu Bắc Kinh (ngực đeo chuông, móng vuốt dữ tợn đè lên quả cầu/con non) là linh vật cổ truyền người Việt thường đặt trước cổng đình chùa thời Lý - Trần.',
+    heritageName: 'Linh vật truyền thống trong di tích cổ Việt Nam',
+    category: 'Lễ hội & Tín ngưỡng',
+    isFact: false,
+    explanation: 'Sai! Linh vật nghê, lân, sư tử thời Lý - Trần của người Việt có dáng vẻ thuần hậu, ngực mang hoa văn chữ Vương hoặc đài sen, tai cụp hiền từ (như tượng sư tử đá chùa Phật Tích, chùa Bà Tấm). Loại "sư tử đá Bắc Kinh" hung dữ là biểu tượng ngoại lai xâm nhập trái phép vào di tích, đã bị Bộ VHTTDL ra Công văn 2662/BVHTTDL yêu cầu di dời.',
+    source: 'Công văn 2662/BVHTTDL-MTNATL của Bộ Văn hóa, Thể thao và Du lịch',
+  },
+  {
+    id: 5,
+    claim: 'Quần thể di tích Cố đô Huế được UNESCO công nhận là Di sản Văn hóa Thế giới vào năm 1993, trở thành di sản thế giới đầu tiên của Việt Nam.',
+    heritageName: 'Quần thể Di tích Cố đô Huế',
+    category: 'Văn hóa vật thể',
+    isFact: true,
+    explanation: 'Chính xác! Vào tháng 12/1993 tại kỳ họp thứ 17 của Ủy ban Di sản Thế giới ở Colombia, Quần thể Di tích Cố đô Huế đã chính thức được ghi danh vào Danh mục Di sản Văn hóa Thế giới của UNESCO, mở đầu cho công tác bảo tồn di sản Việt Nam đạt chuẩn quốc tế.',
+    source: 'UNESCO World Heritage Centre - Decision 17 COM X.A',
+  },
+  {
+    id: 6,
+    claim: 'Người ta có thể dễ dàng xác định chính xác cổ vật nghìn năm tuổi chỉ bằng cách dùng đèn pin huỳnh quang chiếu vào và ngửi mùi đất bám bên ngoài.',
+    heritageName: 'Phương pháp giám định cổ vật và khảo cổ học',
+    category: 'Khảo cổ & Cổ vật',
+    isFact: false,
+    explanation: 'Sai hoàn toàn! Đây là ngụy khoa học thường được các đối tượng buôn bán đồ giả cổ dùng để lừa gạt người tiêu dùng. Giám định khảo cổ học chuyên nghiệp bắt buộc phải dựa trên: địa tầng khai quật, phương pháp đo phổ phát quang (TL), định tuổi carbon phóng xạ C14, phân tích thành phần huỳnh quang tia X (XRF) và đối chiếu văn phong hình thái học.',
+    source: 'Viện Khảo cổ học Việt Nam & ICOM (Hiệp hội Bảo tàng Quốc tế)',
+  },
+];
